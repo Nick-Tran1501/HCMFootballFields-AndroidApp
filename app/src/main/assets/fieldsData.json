@@ -1,0 +1,202 @@
+[
+  {
+    "image": "athletic_bilbao",
+    "name": "Saigon Sports Center",
+    "phone": "+84221234567",
+    "address": "123 Le Loi, District 1, Ho Chi Minh City",
+    "rate": 4.5,
+    "shortDescription": "Modern center, high-quality fields.",
+    "fullDescription": "The Saigon Sports Center is a premier destination for football enthusiasts. It boasts high-quality fields suitable for both amateur and professional matches. The center features state-of-the-art facilities, including advanced lighting systems, well-maintained turf, and comfortable seating for spectators. It's a hub for local tournaments, offering a vibrant atmosphere that fosters community and sportsmanship. The center also provides amenities like locker rooms, equipment rentals, and a cafe. Its central location in District 1 makes it easily accessible. The staff is known for their professionalism and dedication to providing an excellent sporting experience.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "atletico_madrid",
+    "name": "District 7 Football Ground",
+    "phone": "+84227654321",
+    "address": "456 Nguyen Van Linh, District 7, Ho Chi Minh City",
+    "rate": 4.2,
+    "shortDescription": "Spacious outdoor field.",
+    "fullDescription": "Located in the heart of District 7, this football ground is a gem for sports lovers. It features a spacious outdoor field with natural grass, offering an authentic playing experience. The ground is well-known for hosting local tournaments and friendly matches, attracting teams from all over the city. It's equipped with necessary facilities like changing rooms and a small snack bar. The field's open design allows for ample natural light, making it ideal for day games. The ground is maintained by a dedicated staff, ensuring a high-quality playing surface. It's a popular spot for community gatherings and sports events.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "osasuna",
+    "name": "Tan Binh Football Arena",
+    "phone": "+84223334455",
+    "address": "789 Hoang Van Thu, Tan Binh, Ho Chi Minh City",
+    "rate": 4.7,
+    "shortDescription": "Excellent for night games.",
+    "fullDescription": "Tan Binh Football Arena is renowned for its exceptional facilities, catering to football players and fans alike. The arena features a well-maintained field, suitable for 7-a-side matches. It's particularly famous for its night game setup, with state-of-the-art lighting that ensures visibility and enhances the playing experience. The arena includes amenities like modern locker rooms, a seating area for spectators, and a refreshment stand. It's a popular venue for local leagues and casual play, fostering a competitive yet friendly atmosphere. The staff's commitment to maintaining the field and facilities makes it a top choice for evening football activities.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "cadiz",
+    "name": "City Central Stadium",
+    "phone": "+84221112233",
+    "address": "101 Hai Ba Trung, District 3, Ho Chi Minh City",
+    "rate": 4.8,
+    "shortDescription": "Large, international standard stadium.",
+    "fullDescription": "City Central Stadium stands as a landmark in District 3, known for hosting national and international football matches. This large stadium boasts an international standard playing field, advanced sound systems, and high-capacity stands that can accommodate thousands of spectators. It's equipped with VIP areas, digital scoreboards, and comprehensive media facilities for live broadcasts. The stadium is not just a sports venue; it's a cultural hub that brings together communities for major sporting events. Its central location, coupled with ample parking and public transport accessibility, makes it a preferred choice for high-profile matches and events. The stadium also hosts concerts and public gatherings.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "deportivo",
+    "name": "Phu Nhuan Sports Field",
+    "phone": "+84224455666",
+    "address": "202 Phan Dang Luu, Phu Nhuan, Ho Chi Minh City",
+    "rate": 4.3,
+    "shortDescription": "Community favorite, friendly vibe.",
+    "fullDescription": "Phu Nhuan Sports Field, nestled in the bustling district of Phu Nhuan, is a beloved local football destination. This field is particularly popular among youth teams and is known for its friendly, community-oriented atmosphere. The grass pitch is well-maintained, providing a natural playing surface that is gentle on the players. The field is equipped with basic amenities, including changing rooms and a small seating area for spectators. It's a common venue for local school tournaments and weekend matches. The field's intimate setting fosters close-knit community interactions, making it a favorite spot for families and local sports enthusiasts.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "barca",
+    "name": "Go Vap Football Park",
+    "phone": "+84227788999",
+    "address": "303 Le Duc Tho, Go Vap, Ho Chi Minh City",
+    "rate": 4.1,
+    "shortDescription": "Ideal for 5-a-side games.",
+    "fullDescription": "Go Vap Football Park is a versatile sports venue located in the Go Vap district, known for its multiple small fields ideal for 5-a-side games. The park offers a unique playing experience with its well-maintained artificial turf, ensuring consistent play quality. It's a popular spot for local leagues and casual players, providing a lively and competitive atmosphere. The park also offers equipment rental services, making it convenient for players without their own gear. Additional facilities include a snack bar, spectator seating, and ample parking. The park's friendly staff and well-organized management make it a go-to place for quick and enjoyable football matches.",
+    "type": "FUTSAL"
+  },
+  {
+    "image": "getafe",
+    "name": "Thu Duc Football Ground",
+    "phone": "+84228877665",
+    "address": "404 Vo Van Ngan, Thu Duc, Ho Chi Minh City",
+    "rate": 4.4,
+    "shortDescription": "University teams' favorite.",
+    "fullDescription": "Thu Duc Football Ground, located in the academic heart of Thu Duc, is a favorite among university teams. This field boasts a high-quality artificial turf that provides a consistent playing experience. It's a hub for inter-collegiate tournaments, fostering a spirit of competition and camaraderie among students. The ground is equipped with essential amenities like changing rooms and a basic seating area for spectators. Its proximity to several universities makes it a convenient and popular choice for students and faculty alike. The field is also used for community events and sports training programs, contributing to the district's vibrant sports culture.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "girona",
+    "name": "Binh Thanh Sports Complex",
+    "phone": "+84229988777",
+    "address": "505 Dien Bien Phu, Binh Thanh, Ho Chi Minh City",
+    "rate": 4.6,
+    "shortDescription": "Multiple fields, comprehensive amenities.",
+    "fullDescription": "Binh Thanh Sports Complex is a comprehensive sports facility located in the bustling Binh Thanh district. This complex features multiple football fields, catering to various formats of the game including 11-a-side and 7-a-side. The fields are well-maintained with natural and artificial turf options, providing versatility for different playing preferences. The complex also includes additional amenities like a gym, swimming pool, and a café, making it a one-stop destination for fitness enthusiasts. It's a popular venue for local leagues, school tournaments, and corporate sports events. The complex's professional staff and excellent maintenance make it a top choice for sports activities in the city.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "real",
+    "name": "An Phu Soccer Arena",
+    "phone": "+84226655443",
+    "address": "606 Mai Chi Tho, District 2, Ho Chi Minh City",
+    "rate": 4.0,
+    "shortDescription": "Serene area, weekend games.",
+    "fullDescription": "An Phu Soccer Arena, situated in the tranquil area of District 2, offers a peaceful escape for football enthusiasts. This arena is known for its well-kept grass field, providing a natural and authentic playing experience. It's particularly popular for weekend games, attracting families and groups of friends for friendly matches. The arena includes basic facilities like changing rooms and a small stand for spectators. Its serene setting away from the city's hustle makes it an ideal spot for those looking to enjoy a relaxed game of football. The staff's friendly approach and the field's scenic backdrop add to the overall pleasant experience.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "granada",
+    "name": "Cu Chi Football Field",
+    "phone": "+84225544332",
+    "address": "707 Tran Quy, Cu Chi, Ho Chi Minh City",
+    "rate": 3.9,
+    "shortDescription": "Rural setting, spacious field.",
+    "fullDescription": "Cu Chi Football Field, located in the rural outskirts of Ho Chi Minh City, offers a spacious field embraced by natural scenery. This field is popular among local community teams and is known for its relaxed, friendly atmosphere. The natural grass pitch provides a traditional football experience, and the open surroundings ensure a refreshing environment. The field hosts local tournaments and is a gathering spot for community events, fostering a sense of unity and local pride. Basic amenities like changing rooms and a snack bar are available. The field's rustic charm and laid-back vibe make it a favored destination for weekend matches.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "rayo",
+    "name": "Can Gio Beach Soccer",
+    "phone": "+84224433221",
+    "address": "808 Can Gio, Ho Chi Minh City",
+    "rate": 4.2,
+    "shortDescription": "Beach football experience.",
+    "fullDescription": "Can Gio Beach Soccer offers a unique and exhilarating beach football experience. Located on the serene shores of Can Gio, this venue is perfect for those looking to combine the thrill of football with the beauty of the beach. The sandy pitch adds an exciting challenge to the game, making it a favorite among adventurous players. The venue hosts casual play sessions and beach soccer tournaments, attracting both local and visiting teams. Facilities include showers, a small café, and shaded areas for relaxation. The combination of sun, sand, and soccer makes Can Gio Beach Soccer a must-visit for sports enthusiasts seeking a different kind of football experience.",
+    "type": "FUTSAL"
+  },
+  {
+    "image": "celta",
+    "name": "District 5 Football Hub",
+    "phone": "+84223322110",
+    "address": "909 Tran Hung Dao, District 5, Ho Chi Minh City",
+    "rate": 4.3,
+    "shortDescription": "Central location, excellent facilities.",
+    "fullDescription": "District 5 Football Hub is a centrally located sports venue known for its excellent facilities and vibrant atmosphere. The hub features a top-quality artificial turf field, suitable for both competitive matches and casual play. It's a popular spot for local leagues and school teams, offering a professional setting for football enthusiasts. The field is equipped with modern amenities, including high-quality lighting for evening games, a spectator area, and a refreshment stand. The hub's location in the heart of District 5 makes it easily accessible and a frequent choice for city-wide tournaments. The staff's commitment to maintaining a high standard of facilities ensures a great experience for all players.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "mallorca",
+    "name": "Tan Phu Soccer Field",
+    "phone": "+84222211009",
+    "address": "1010 Luong The Vinh, Tan Phu, Ho Chi Minh City",
+    "rate": 4.1,
+    "shortDescription": "Local field, community vibe.",
+    "fullDescription": "Tan Phu Soccer Field is a well-liked local sports venue in the Tan Phu district. It's known for its strong community vibe and regularly hosts matches for local youth and amateur teams. The field features a well-maintained grass pitch that provides a natural playing experience. The facility includes basic amenities like changing rooms and a small stand for spectators. On weekends, the field becomes a bustling hub of activity, with families and local residents gathering to watch games. The field's intimate and friendly atmosphere makes it a popular choice for those seeking a community-oriented sports experience.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "betis",
+    "name": "District 10 Sports Ground",
+    "phone": "+84221100988",
+    "address": "1111 3 Thang 2, District 10, Ho Chi Minh City",
+    "rate": 4.4,
+    "shortDescription": "Student-friendly, evening matches.",
+    "fullDescription": "District 10 Sports Ground is a vibrant and dynamic football venue, popular among students and local teams. The ground features a high-quality artificial turf, ideal for both training sessions and competitive matches. It's especially busy in the evenings, hosting a variety of matches under its excellent lighting system. The ground is equipped with necessary facilities like locker rooms and a small seating area for spectators. Its location in a student-friendly area makes it a common meeting place for young athletes and sports enthusiasts. The ground is known for its lively atmosphere, particularly during local tournaments and inter-collegiate competitions.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "sociedad",
+    "name": "Binh Chanh Football Arena",
+    "phone": "+84229988776",
+    "address": "1212 Ngo Tat To, Binh Chanh, Ho Chi Minh City",
+    "rate": 4.0,
+    "shortDescription": "Spacious, well-maintained field.",
+    "fullDescription": "Binh Chanh Football Arena, located a bit outside the city center, offers a spacious and well-maintained field that caters to football enthusiasts of all levels. The arena is known for its lush, natural grass pitch, providing an excellent playing surface. It's a popular venue for local leagues and friendly matches, offering a peaceful and relaxed environment. The arena includes basic amenities like changing rooms and a small stand for spectators. Its location away from the hustle of the city center makes it an ideal spot for players looking for a quiet place to enjoy the game. The staff's dedication to maintaining the field ensures a quality experience for all visitors.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "sevilla",
+    "name": "District 11 Mini Soccer",
+    "phone": "+84228877654",
+    "address": "1313 Lac Long Quan, District 11, Ho Chi Minh City",
+    "rate": 3.8,
+    "shortDescription": "Great for small-sided games.",
+    "fullDescription": "District 11 Mini Soccer is a specialized venue catering to fans of small-sided football games. The facility features several mini-pitches, perfect for 5-a-side matches. These pitches are equipped with high-quality artificial turf, ensuring a consistent playing experience. The venue is popular for its organized mini leagues and friendly matches, attracting a diverse group of players. Additional facilities include equipment rental and a small café. The venue's focus on small-sided games makes it a unique addition to the city's sports landscape, offering a fast-paced and skill-focused version of football.",
+    "type": "FUTSAL"
+  },
+  {
+    "image": "almeria",
+    "name": "District 4 Soccer Spot",
+    "phone": "+84227766543",
+    "address": "1414 Ben Van Don, District 4, Ho Chi Minh City",
+    "rate": 4.2,
+    "shortDescription": "Lively atmosphere, weekend hotspot.",
+    "fullDescription": "District 4 Soccer Spot is a bustling football venue known for its lively atmosphere, especially during weekends. The spot features a well-maintained artificial turf field, suitable for both casual play and competitive matches. It's a popular gathering place for local football enthusiasts, offering a vibrant and energetic environment. The field is equipped with basic amenities, including changing rooms and a small seating area for spectators. The spot's location in District 4 makes it easily accessible and a frequent choice for impromptu games and local tournaments. The venue's lively vibe and quality facilities make it a favorite among the city's football community.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "palmas",
+    "name": "Hoc Mon Football Field",
+    "phone": "+84226655432",
+    "address": "1515 Nguyen Van Bua, Hoc Mon, Ho Chi Minh City",
+    "rate": 4.1,
+    "shortDescription": "Large, open field.",
+    "fullDescription": "Hoc Mon Football Field is known for its large, open field and enthusiastic local players. The field features a natural grass pitch, providing a traditional and authentic football experience. It's a popular venue for local community matches and is often bustling with activity, especially on weekends. The field's spaciousness makes it ideal for large-scale matches and tournaments. Basic facilities like changing rooms and a small stand for spectators are available. The field's location in Hoc Mon gives it a more laid-back and community-focused atmosphere, making it a preferred spot for local teams and families.",
+    "type": "A_SIDE_11"
+  },
+  {
+    "image": "valencia",
+    "name": "Nha Be Soccer Ground",
+    "phone": "+84225544321",
+    "address": "1616 Le Van Luong, Nha Be, Ho Chi Minh City",
+    "rate": 3.9,
+    "shortDescription": "Peaceful, weekend-friendly.",
+    "fullDescription": "Nha Be Soccer Ground, situated in the peaceful district of Nha Be, is an ideal location for those seeking a relaxed football environment. The ground features a well-maintained grass pitch, perfect for weekend football activities. It's a favorite among local residents and families, providing a serene setting away from the city's hustle. The ground hosts friendly matches and small-scale tournaments, fostering a sense of community among players. Basic amenities like changing rooms and a small seating area are available. The ground's tranquil atmosphere and well-kept facilities make it a sought-after destination for leisurely football games.",
+    "type": "A_SIDE_7"
+  },
+  {
+    "image": "villareal",
+    "name": "District 6 Football Park",
+    "phone": "+84224433220",
+    "address": "1717 Hau Giang, District 6, Ho Chi Minh City",
+    "rate": 4.3,
+    "shortDescription": "Youth leagues' favorite.",
+    "fullDescription": "District 6 Football Park is a prominent sports venue featuring several well-kept pitches, popular among local youth leagues. The park offers a variety of fields, catering to different formats of the game. It's a hub for youth football development, providing a platform for young talents to hone their skills. The park includes amenities like training equipment, changing rooms, and a small café. Its commitment to promoting youth football makes it a key player in the local sports community. The park's vibrant atmosphere during league matches and training sessions is a testament to its role in nurturing the next generation of footballers.",
+    "type": "A_SIDE_11"
+  }
+]

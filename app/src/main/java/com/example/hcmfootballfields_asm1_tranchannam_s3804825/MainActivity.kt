@@ -35,14 +35,21 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.compose.AppTheme
-import com.example.hcmfootballfields_asm1_tranchannam_s3804825.modals.ThemeViewModel
+import com.example.hcmfootballfields_asm1_tranchannam_s3804825.models.Field
+import com.example.hcmfootballfields_asm1_tranchannam_s3804825.models.ThemeViewModel
+import com.example.hcmfootballfields_asm1_tranchannam_s3804825.utils.readJSON
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+//        JSon reading function call and defined
+        val jsonString = readJSON(baseContext, "fieldsData.json")
+        val fieldType = object : TypeToken<List<Field>>() {}.type
+        val fields: List<Field> = Gson().fromJson(jsonString, fieldType)
         setContent {
             val themeViewModel: ThemeViewModel = viewModel()
-
             // Observe the theme state
             val isDarkTheme = themeViewModel.isDarkTheme.value
             AppTheme(useDarkTheme = isDarkTheme) {
@@ -51,7 +58,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    AppNavigation()
+                    AppNavigation(fields)
                 }
 
             }
@@ -59,6 +66,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+//Define the first screen
 @Composable
 fun FirstScreen(navController: NavController, themeViewModel: ThemeViewModel) {
     val isDarkTheme = themeViewModel.isDarkTheme.value
@@ -67,7 +75,7 @@ fun FirstScreen(navController: NavController, themeViewModel: ThemeViewModel) {
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
     ) {
-
+// Header Area
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -87,6 +95,7 @@ fun FirstScreen(navController: NavController, themeViewModel: ThemeViewModel) {
         }
 
     }
+//    Main content area
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -96,9 +105,9 @@ fun FirstScreen(navController: NavController, themeViewModel: ThemeViewModel) {
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(16.dp)
-                .height(100.dp),
+                .height(150.dp),
             color = MaterialTheme.colorScheme.primary,
-            text = "Welcome To HCM FootFields",
+            text = "Welcome To HCM Football Fields",
             fontSize = 48.sp,
             lineHeight = 48.sp,
             textAlign = TextAlign.Center
@@ -132,12 +141,23 @@ fun FirstScreen(navController: NavController, themeViewModel: ThemeViewModel) {
     }
 }
 
+
+//Defined navigation graph and App navigation
 @Composable
-fun AppNavigation() {
+fun AppNavigation(fields: List<Field>) {
     val navController = rememberNavController()
     val themeViewModel: ThemeViewModel = viewModel()
+
     NavHost(navController = navController, startDestination = "login_screen") {
         composable("login_screen") { FirstScreen(navController, themeViewModel) }
-        composable("list_of_fields") { ListOfFieldsScreen(navController) }
+        composable("list_of_fields") { ListOfFieldsScreen(fields, navController, themeViewModel) }
+        composable("field_detail/{fieldData}") { backStackEntry ->
+            val fieldJson = backStackEntry.arguments?.getString("fieldData")
+            val field = Gson().fromJson(
+                fieldJson,
+                Field::class.java
+            ) // Deserialize the JSON string back to Field object
+            FieldDetail(field, navController, themeViewModel)
+        }
     }
 }
